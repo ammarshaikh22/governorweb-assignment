@@ -7,7 +7,7 @@ import CloseIcon from '@mui/icons-material/Close';
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
     return (
-        <header className='bg-[#044E83] md:py-7 py-4 relative text-white'>
+        <header className='bg-[#044E83] md:py-7 py-4 relative text-white z-10'>
             <div className='max-w-[88%] mx-auto'>
                 <div className='md:flex justify-end gap-16 items-center hidden'>
                     <div className='absolute left-14 top-6'>
