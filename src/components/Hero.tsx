@@ -20,7 +20,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className='md:w-[50%] mt-6 md:mt-0'>
-                        <Image src='/governor.png' alt='governor' width={900} height={900} className="min-w-[900px] h-auto absolute md:top-4 md:-right-[420px] -right-[320px]" />
+                        <Image src='/governor.png' alt='governor' width={900} height={900} className="min-w-[900px] h-auto absolute md:-top-20 md:-right-[480px] -right-[320px]" />
                     </div>
                 </div>
             </div>
