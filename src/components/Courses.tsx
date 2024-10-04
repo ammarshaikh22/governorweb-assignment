@@ -64,7 +64,7 @@ const Courses = () => {
                             return (
                                 <div key={id} className="md:w-[245px] w-full h-[342px] md:h-[234px] border rounded-lg shadow-2xl shadow-black transition-all duration-300 hover:scale-105">
                                     <Image src={ele.img} alt="img" width={245} height={163} className="rounded-t-lg md:w-[245px] md:h-[163px] w-full h-[272px]" />
-                                    <h3 className="text-center mt-2 text-lg font-bold text-gray-500">{ele.title}</h3>
+                                    <h3 className="text-center mt-2 text-lg font-bold text-gray-500 max-w-[98%] mx-auto">{ele.title}</h3>
                                 </div>
                             )
                         })

@@ -17,6 +17,7 @@ const images = [
     '/slideShow5.jpg',
     '/slideShow6.jpg',
     '/slideShow7.jpg',
+    '/slideShow8.jpg',
 ];
 
 const CarouselDemo = () => {
