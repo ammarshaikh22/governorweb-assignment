@@ -6,18 +6,18 @@ const Footer = () => {
     return (
         <section className='relative py-24 mt-10 bg-[#F4F4F5]'>
             <div className='max-w-[90%] mx-auto'>
-                <div className='flex justify-between'>
+                <div className='flex justify-between md:flex-row flex-col md:gap-0 gap-8'>
                     <div>
                         <ul className='flex flex-col gap-3'>
-                            <h4 className='font-bold text-black text-2xl mb-4'>Core Courses</h4>
+                            <h4 className='font-bold text-black text-2xl md:mb-4'>Core Courses</h4>
                             <li>Programming Fundamentals</li>
                             <li>Web2 Using NextJs</li>
                             <li>Earn as You Learn</li>
                         </ul>
                     </div>
-                    <div className='flex mr-24 gap-10'>
+                    <div className='flex mr-24 gap-10 md:flex-row flex-col'>
                         <ul className='flex flex-col gap-3'>
-                            <h4 className='font-bold text-black text-2xl mb-4'>Advanced Courses</h4>
+                            <h4 className='font-bold text-black text-2xl md:mb-4'>Advanced Courses</h4>
                             <li>Artificial Intelligence</li>
                             <li>Web3 and Metaverse</li>
                             <li>Cloud-Native Computing</li>
