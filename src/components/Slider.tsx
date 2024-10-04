@@ -40,7 +40,7 @@ const CarouselDemo = () => {
                                     alt={`image-${index}`}
                                     width={544}
                                     height={600}
-                                    className="rounded-lg md:min-h-[600px] md:min-w-[544px] h-[300px] w-full"
+                                    className="rounded-lg md:min-h-[600px] md:min-w-[550px] h-[300px] w-full"
                                 />
                             </CardContent>
                         </div>
