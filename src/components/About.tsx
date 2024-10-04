@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <section className='relative my-20'>
+        <section className='relative mt-20'>
             <div className='max-w-[90%] mx-auto'>
                 <div>
                     <h2 className='text-xl md:text-3xl md:max-w-[90%] mx-auto font-bold mb-10 text-[#044e83] text-center'>Certified Cloud Applied Generative AI Engineer (GenEng) and Solopreneur Developing Billion-Dollar Valued Developers and Solopreneurs</h2>
